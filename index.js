@@ -10,9 +10,8 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://blog-frontend-nine-kappa.vercel.app",
+    origin: "http://localhost:3000",
     credentials: true,
-    optionsSuccessStatus: 200,
   })
 );
 
