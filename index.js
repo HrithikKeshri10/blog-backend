@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://blog-frontend-lcat.vercel.app/",
+    origin: "https://blog-frontend-nine-kappa.vercel.app",
     credentials: true,
   })
 );
