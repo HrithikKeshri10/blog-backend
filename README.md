@@ -22,7 +22,7 @@ A RESTful API built with Node.js, Express, and MongoDB that powers a personal bl
 1. Clone the repository:
 
 ```
-git clone <repository-url>
+git clone https://github.com/HrithikKeshri10/blog-backend
 cd blog-platform
 ```
 
