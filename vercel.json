@@ -8,25 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/api/auth/(.*)",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/api/post/(.*)",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/api/posts",
-      "dest": "/index.js"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/index.js"
+      "dest": "/server.js"
     }
-  ],
-  "env": {
-    "MONGODB_URI": "@mongodb_uri",
-    "JWT_SECRET": "@jwt_secret",
-    "PORT": "3200"
-  }
+  ]
 }
